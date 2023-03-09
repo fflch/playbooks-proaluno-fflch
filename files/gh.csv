@@ -1,1 +1,38 @@
-ip,patrimonio,loga,posicao,observacao
+IP,Patrimônio,Logou?,Posição,Observações
+10.204.1.51/22,008.038.368,Sim,1-1,-----------------------------
+-----------------------------,084.019.228,Não,1-2,Não consegue se efetuar o logon mesmo com a senha root.
+10.204.1.39/22,084.019266,Sim,1-3,-----------------------------
+10.204.1.34/22,084.019247,Sim,1-4,-----------------------------
+-----------------------------,084.019227,Não,1-5,Não liga.
+-----------------------------,084.019243,Não,1-6,Não consegue se efetuar o logon mesmo com a senha root.
+-----------------------------,008.046985,Não,2-1,Não liga a mesa inteira de máquinas.
+-----------------------------,008.047009,Não,2-2,Não liga a mesa inteira de máquinas.
+-----------------------------,008.047003,Não,2-3,Não liga a mesa inteira de máquinas.
+-----------------------------,008.038385,Não,2-4,Não liga a mesa inteira de máquinas.
+-----------------------------,008.035811,Não,2-5,Não liga a mesa inteira de máquinas.
+-----------------------------,008.035799,Não,2-6,Não liga a mesa inteira de máquinas.
+-----------------------------,008.038421,Não,3-1,Não consegue se efetuar o logon mesmo com a senha root.
+10.204.1.53/22,008.038424,Sim,3-2,-----------------------------
+-----------------------------,008.038427,Não,3-3,Não liga.
+10.204.0.59/22,008.038420,Sim,3-4,-----------------------------
+10.204.0.55/22,008.038412,Sim,3-5,-----------------------------
+10.204.1.31/22,084.019248,Sim,3-6,-----------------------------
+-----------------------------,084.019250,Não,4-1,Não liga.
+-----------------------------,084.019233,Não,4-2,Não liga.
+-----------------------------,008.038407,Não,4-3,Não liga.
+-----------------------------,008.038428,Não,4-4,Não liga.
+-----------------------------,008.038324,Não,4-5,"Liga, mas se mantêm em tela preta com o curso de digitação."
+-----------------------------,008.038352,Não,4-6,"Liga, mas o sistema é Windows7 Professional."
+-----------------------------,008.038399,Não,5-1,Não consegue se efetuar o logon mesmo com a senha root.
+-----------------------------,008.038423,Não,5-2,Não consegue se efetuar o logon mesmo com a senha root.
+-----------------------------,008.038367,Não,5-3,Não liga.
+10.204.1.29/22,084.019230,Sim,5-4,Tecla F1 faltante. Mensagem de inicio diferente dos demais.
+10.204.1.49/22,008.038338,Sim,5-5,-----------------------------
+10.204.1.35/22,084.019229,Sim,5-6,-----------------------------
+-----------------------------,008.038411,Não,6-1,"Liga, mas o sistema é Windows7 Professional."
+-----------------------------,008.038378,Não,6-2,"CPU liga, mas o monitor não."
+-----------------------------,008.038383,Não,6-3,"Liga, mas se mantêm em tela preta com o curso de digitação."
+-----------------------------,084.019260,Não,6-4,Liga mas continua na tela de boot.
+-----------------------------,008.034872,Não,6-5,Não consegue se efetuar o logon mesmo com a senha root. Mouse não funciona.
+10.204.0.83/22,008.035810,Sim,6-6,-----------------------------
+10.204.1.33/22,084.019246,Sim,Mesa Monitor.,-----------------------------
