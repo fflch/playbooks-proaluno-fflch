@@ -1,0 +1,19 @@
+######################################################################
+[letras]
+linux008041057 ansible_host="192.168.8.47"
+
+#[fcs]
+#vm ansible_host="192.168.8.47"
+
+#[gh]
+#vm ansible_host="192.168.8.47"
+
+########## Configurações Globais ##########
+[letras:vars]
+ansible_user="root"
+
+[fcs:vars]
+ansible_user="root"
+
+[gh:vars]
+ansible_user="root"
