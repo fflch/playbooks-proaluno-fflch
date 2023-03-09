@@ -10,28 +10,13 @@
     - name: domain_member_password
       prompt: Qual sua senha?
 
+  vars:
+    proaluno_realm: "smbdomain.fflch.usp.br"
+    proaluno_ntp_servers:
+      - 143.107.72.180
+
   tasks:
 
-    - name: Aplica role fflch.tasks
-      include_role:
-        name: fflch.tasks
-
-    - name: Configura resolv.conf para consultar DNSs do firstdc dev
-      include_role:
-        name: blackstar257.resolv
-      vars:
-        resolv_conf_nameservers:
-          - 143.107.72.180
-        resolv_conf_search_domains:
-          - "smbdomain.fflch.usp.br"
-
-    - name: fflch.domain-member
-      include_role:
-        name: fflch.domain-member
-      vars:
-        domain_member_realm: "smbdomain.fflch.usp.br"
-        domain_member_samba_server: sambadc180
-        
     - name: proaluno role
       include_role:
         name: fflch.proaluno
@@ -48,3 +33,10 @@
             device: "{{ proaluno_cups_server }}/proaluno_letras_ppd"
             model: 'K7600_processado_gstopdf17.ppd'
 
+    - name: fflch.domain-member
+      include_role:
+        name: fflch.domain-member
+      vars:
+        domain_member_realm: "smbdomain.fflch.usp.br"
+        domain_member_samba_server: sambadc180
+        
