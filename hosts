@@ -1,5 +1,19 @@
 ######################################################################
 [letras]
+
+linux084019132 ansible_host="10.140.1.34"
+linux084019108 ansible_host="10.140.1.56"
+linux008035771 ansible_host="10.140.1.57"
+linux084019101 ansible_host="10.140.1.50"
+linux084019107 ansible_host="10.140.1.51"
+linux084019115 ansible_host="10.140.1.44"
+linux084019293 ansible_host="10.140.1.45"
+linux084019116 ansible_host="10.140.1.47"
+linux084019122 ansible_host="10.140.1.52"
+linux008035780 ansible_host="10.140.1.53"
+linux084019106 ansible_host="10.140.1.42"
+linux084019306 ansible_host="10.140.1.43"
+linux084019120 ansible_host="10.140.1.62"
 linux084019285 ansible_host="10.140.1.29"
 linux084019271 ansible_host="10.140.1.28"
 linux084019113 ansible_host="10.140.1.38"
