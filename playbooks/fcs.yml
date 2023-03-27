@@ -1,6 +1,6 @@
 ---
 - name: prolauno playbook FCS
-  hosts: letras
+  hosts: fcs
   become: yes
 
   vars_prompt:
