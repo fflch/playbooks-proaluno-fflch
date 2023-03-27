@@ -1,5 +1,5 @@
 ---
-- name: prolauno playbook Letras
+- name: prolauno playbook FCS
   hosts: letras
   become: yes
 
@@ -27,7 +27,7 @@
         proaluno_remove_all_printers: True
         proaluno_update_keys: True
         proaluno_cups_server: "ipp://cups.fflch.usp.br:631/printers"
-        proaluno_sala: "proaluno_letras_"
+        proaluno_sala: "proaluno_fcs_"
         proaluno_printers:
           - name: impressora
             device: "{{ proaluno_cups_server }}/proaluno_fcs_ppd"
