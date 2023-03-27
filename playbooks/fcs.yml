@@ -30,7 +30,7 @@
         proaluno_sala: "proaluno_letras_"
         proaluno_printers:
           - name: impressora
-            device: "{{ proaluno_cups_server }}/proaluno_letras_ppd"
+            device: "{{ proaluno_cups_server }}/proaluno_fcs_ppd"
             model: 'K7600_processado_gstopdf17.ppd'
 
     - name: fflch.domain-member
