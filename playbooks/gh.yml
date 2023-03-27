@@ -1,6 +1,6 @@
 ---
-- name: prolauno playbook Letras
-  hosts: letras
+- name: prolauno playbook GH
+  hosts: gh
   become: yes
 
   vars_prompt:
@@ -27,10 +27,10 @@
         proaluno_remove_all_printers: True
         proaluno_update_keys: True
         proaluno_cups_server: "ipp://cups.fflch.usp.br:631/printers"
-        proaluno_sala: "proaluno_letras_"
+        proaluno_sala: "proaluno_gh_"
         proaluno_printers:
           - name: impressora
-            device: "{{ proaluno_cups_server }}/proaluno_letras_ppd"
+            device: "{{ proaluno_cups_server }}/proaluno_gh_ppd"
             model: 'K7600_processado_gstopdf17.ppd'
 
     - name: fflch.domain-member
