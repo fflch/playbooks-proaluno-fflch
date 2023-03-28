@@ -35,8 +35,19 @@ linux084019111 ansible_host="10.140.1.70"
 linux084019127 ansible_host="10.140.1.48"
 linux008038325 ansible_host="10.140.1.49"
 
-#[fcs]
-#vm ansible_host="192.168.8.47"
+[fcs]
+
+linux008047635 ansible_host="10.172.1.235"
+linux008040081 ansible_host="10.172.1.63"
+linux084019255 ansible_host="10.172.1.89"
+linux008034853 ansible_host="10.172.2.36"
+linux008030022 ansible_host="10.172.1.90"
+linux008034933 ansible_host="10.172.2.32"
+linux008030024 ansible_host="10.172.0.103"
+linux008038340 ansible_host="10.172.2.34"
+linux008035824 ansible_host="10.172.0.38"
+linux008034921 ansible_host="10.172.1.252"
+linux008041055 ansible_host="10.172.0.221"
 
 #[gh]
 #vm ansible_host="192.168.8.47"
