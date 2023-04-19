@@ -43,6 +43,8 @@ linux008038365 ansible_host="10.140.1.175"
 linux008035810 ansible_host="10.140.1.176"
 linux008038411 ansible_host="10.140.1.177"
 linux084019248 ansible_host="10.140.1.178"
+linux084019112 ansible_host="10.140.1.67"
+linux084019125 ansible_host="10.140.1.35"
 
 [fcs]
 linux008047635 ansible_host="10.172.1.235"
@@ -68,9 +70,58 @@ linux008035765 ansible_host="10.172.1.251"
 linux008047647 ansible_host="10.172.1.59"
 linux008048564 ansible_host="10.172.0.90"
 linux008041059 ansible_host="10.172.1.16"
+linux008041057 ansible_host="10.172.0.35"
+linux008038387 ansible_host="10.172.1.250"
+linux008035803 ansible_host="10.172.0.202"
+linux008038399 ansible_host="10.172.2.52"
+linux008038424 ansible_host="10.172.2.54"
+linux008038338 ansible_host="10.172.2.58"
+linux008046641 ansible_host="10.172.1.234"
+linux084019247 ansible_host="10.172.2.64"
+linux084019243 ansible_host="10.172.2.49"
+linux008034923 ansible_host="10.172.2.68"
+linux008038423 ansible_host="10.172.2.10"
+linux008045713 ansible_host="10.172.1.254"
 
-#[gh]
-#vm ansible_host="192.168.8.47"
+[gh]
+linux200079759 ansible_host="10.204.1.211"
+linux200079764 ansible_host="10.204.1.204"
+linux200079729 ansible_host="10.204.1.202"
+linux200079728 ansible_host="10.204.1.201"
+linux200079727 ansible_host="10.204.1.200"
+#linux200079739 ansible_host="" - cadastrar no copaco?
+#linux200079738 ansible_host="" - cadastrar no copaco?
+#linux200079736 ansible_host="" - cadastrar no copaco?
+linux200079730 ansible_host="10.204.1.207"
+linux200079733 ansible_host="10.204.1.205"
+#linux200079731 - sem cabo
+linux200079734 ansible_host="10.204.1.206"
+linux200079732 ansible_host="10.204.1.208"
+linux200079735 ansible_host="10.204.1.209"
+linux200079743 ansible_host="10.204.1.53"
+linux200079745 ansible_host="10.204.1.203"
+linux200079744 ansible_host="10.204.1.190"
+linux200079742 ansible_host="10.204.1.66"
+linux200079740 ansible_host="10.204.1.67"
+linux200079741 ansible_host="10.204.1.34"
+linux200079752 ansible_host="10.204.1.39"
+#linux200079756 ansible_host="" - cadastrar no copaco?
+linux200079757 ansible_host="10.204.1.73"
+linux200079754 ansible_host="10.204.1.49"
+linux200079755 ansible_host="10.204.1.52"
+linux200079758 ansible_host="10.204.1.74"
+linux200079751 ansible_host="10.204.1.27"
+linux200079750 ansible_host="10.204.1.168"
+linux200079749 ansible_host="10.204.1.167"
+linux200079746 ansible_host="10.204.1.31"
+linux200079747 ansible_host="10.204.1.32"
+linux200079748 ansible_host="10.204.1.33"
+linux200079760 ansible_host="10.204.1.196"
+linux200079762 ansible_host="10.204.1.215"
+#linux200079761 ansible_host="" - cadastrar no copaco?
+linux200079763 ansible_host="10.204.1.192"
+#linux200079753 ansible_host="" - cadastrar no copaco?
+linux200079765 ansible_host="10.204.1.194"
 
 ########## Configurações Globais ##########
 [letras:vars]
