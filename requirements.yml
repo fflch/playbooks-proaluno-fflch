@@ -7,10 +7,9 @@
   src: https://github.com/fflch/ansible-role-proaluno.git
   version: 1.0.5
 
-- name: fflch.domain-member
-  src: https://github.com/fflch/ansible-role-domain-member.git
-  version: 1.0.5
-
+- name: fflch.sssd_ldap
+  src: https://github.com/uspdev/ansible-role-sssd-ldap.git
+  version: 1.0.1
 
 #### roles da comunidade ####
 

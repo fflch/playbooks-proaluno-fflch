@@ -10,33 +10,13 @@
     - name: domain_member_password
       prompt: Qual sua senha?
 
-  vars:
-    proaluno_realm: "smbdomain.fflch.usp.br"
-    proaluno_ntp_servers:
-      - 143.107.72.180
-
   tasks:
 
-    - name: proaluno role
+    - name: Configura cliente sssd
       include_role:
-        name: fflch.proaluno
+        name: uspdev.sssd_ldap
       vars:
-        proaluno_deploy_printers: True
-        proaluno_install_pacotes_debian: True
-        proaluno_install_mate: True
-        proaluno_remove_all_printers: True
-        proaluno_update_keys: True
-        proaluno_cups_server: "ipp://cups.fflch.usp.br:631/printers"
-        proaluno_sala: "proaluno_gh_"
-        proaluno_printers:
-          - name: impressora
-            device: "{{ proaluno_cups_server }}/proaluno_gh_ppd"
-            model: 'K7600_processado_gstopdf17.ppd'
-
-    - name: fflch.domain-member
-      include_role:
-        name: fflch.domain-member
-      vars:
-        domain_member_realm: "smbdomain.fflch.usp.br"
-        domain_member_samba_server: sambadc180
+        sssd_ldap_realm: "smbdomain.fflch.usp.br"
+        sssd_ldap_admin_password: "{{ domain_member_password }}"
+        sssd_ldap_admin_user: "{{ domain_member_admin_user }}"
         
