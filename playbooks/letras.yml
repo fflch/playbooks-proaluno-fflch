@@ -19,5 +19,6 @@
         sssd_ldap_realm: "smbdomain.fflch.usp.br"
         sssd_ldap_admin_password: "{{ domain_member_password }}"
         sssd_ldap_admin_user: "{{ domain_member_admin_user }}"
+        sssd_ldap_basedn: "dc=smbdomain,dc=fflch,dc=usp,dc=br"
 
 
