@@ -44,7 +44,13 @@ linux008041516 ansible_host="10.140.2.46"
 linux008041533 ansible_host="10.140.2.40"
 
 [fcs]
-linux008047635 ansible_host="10.172.1.235"
+linux008042177 ansible_host="10.172.2.32"
+linux008042180 ansible_host="10.172.2.31"
+linux008042183 ansible_host="10.172.2.36"
+linux008042155 ansible_host="10.172.2.104"
+linux008043295 ansible_host="10.172.1.254"
+linux008042167 ansible_host="10.172.2.105"
+linux008042173 ansible_host="10.84.1.46"
 
 [gh]
 linux200079759 ansible_host="10.204.1.211"
