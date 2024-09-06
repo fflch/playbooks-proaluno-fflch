@@ -78,7 +78,6 @@ linux008042175 ansible_host="10.172.2.33"
 linux008042181 ansible_host="10.172.2.35"
 
 
-
 [gh]
 linux200079759 ansible_host="10.204.1.211"
 
