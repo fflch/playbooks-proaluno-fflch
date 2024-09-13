@@ -86,6 +86,39 @@ linux008042162 ansible_host="10.172.0.219"
 
 
 [gh]
+# b3
+linux200079744 ansible_host="10.204.1.190"
+linux200079745 ansible_host="10.204.1.203"
+linux200079743 ansible_host="10.204.1.53"
+linux200079741 ansible_host="10.204.1.34"
+linux200079740 ansible_host="10.204.1.67"
+linux200079742 ansible_host="10.204.1.66"
+# b2
+linux200079730 ansible_host="10.204.1.207"
+linux200079734 ansible_host="10.204.1.206"
+linux200079732 ansible_host="10.204.1.208"
+linux200079735 ansible_host="10.204.1.209"
+linux200079731 ansible_host="10.204.1.210"
+linux200079733 ansible_host="10.204.1.205"
+# b5
+linux200079747 ansible_host="10.204.1.32"
+linux200079749 ansible_host="10.204.1.167"
+linux200079750 ansible_host="10.204.1.168"
+linux200079746 ansible_host="10.204.1.31"
+# b4
+linux200079754 ansible_host="10.204.1.49"
+linux200079757 ansible_host="10.204.1.73"
+linux200079758 ansible_host="10.204.1.74"
+linux200079755 ansible_host="10.204.1.52"
+linux200079756 ansible_host="10.204.1.69"
+# b7
+linux200079762 ansible_host="10.204.1.215"
+linux200079763 ansible_host="10.204.1.192"
+linux200079753 ansible_host="10.204.1.193"
+linux200079765 ansible_host="10.204.1.194"
+linux200079752 ansible_host="10.204.1.39"
+# bm
+linux200079764 ansible_host="10.204.1.204"
 linux200079759 ansible_host="10.204.1.211"
 
 ########## Configurações Globais ##########
