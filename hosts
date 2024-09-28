@@ -120,6 +120,11 @@ linux200079752 ansible_host="10.204.1.39"
 # bm
 linux200079764 ansible_host="10.204.1.204"
 linux200079759 ansible_host="10.204.1.211"
+# outros
+linux200079727 ansible_host="10.204.1.200"
+linux200079798 ansible_host="10.204.1.201"
+linux200079736 ansible_host="10.204.1.197"
+linux200079738 ansible_host="10.204.1.198"
 
 ########## Configurações Globais ##########
 [letras:vars]
