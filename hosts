@@ -129,12 +129,9 @@ linux200079738 ansible_host="10.204.1.198"
 ########## Configurações Globais ##########
 [letras:vars]
 ansible_user="root"
-ansible_ssh_private_key_file="~/.ssh/fflch"
 
 [fcs:vars]
 ansible_user="root"
-ansible_ssh_private_key_file="~/.ssh/fflch"
 
 [gh:vars]
 ansible_user="root"
-ansible_ssh_private_key_file="~/.ssh/fflch"
