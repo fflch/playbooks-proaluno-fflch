@@ -5,7 +5,7 @@
 
 - name: fflch.proaluno
   src: https://github.com/fflch/ansible-role-proaluno.git
-  version: 1.0.11
+  version: 1.0.12
 
 - name: uspdev.sssd_ldap
   src: https://github.com/uspdev/ansible-role-sssd-ldap.git
