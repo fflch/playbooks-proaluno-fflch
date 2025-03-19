@@ -32,3 +32,9 @@
         ntp_restrict:
           - "127.0.0.1"
           - "::1"
+
+    - name: Configura prolauno
+      include_role:
+        name: fflch.proaluno
+      vars:
+        proaluno_install_gui: true

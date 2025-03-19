@@ -32,7 +32,6 @@
           - "127.0.0.1"
           - "::1"
 
-
     - name: Configura fflch.proaluno
       include_role:
         name: fflch.proaluno
